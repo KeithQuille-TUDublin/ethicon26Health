@@ -29,7 +29,11 @@ Think of a saliency map as the AI answering:
 
 > "These are the areas I considered important."
 
-<img src="https://debuggercafe.com/wp-content/uploads/2021/05/cam_exmp_2.jpg">
+<br>
+Below is an example of a saliency map (often called an AI heatmap):
+<br>
+
+<img src="https://debuggercafe.com/wp-content/uploads/2021/05/cam_exmp_2.jpg" width="600px">
 
 ---
 
