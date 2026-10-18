@@ -1,108 +1,98 @@
-# ethicon26Health
+# Ethicathon: Can We Trust Medical AI?
 
-# Ethicon: Can We Trust Medical AI?
+## Welcome
 
-## Overview
+In this Ethicathon, you will act as an AI ethics review panel for a hospital considering the use of an Artificial Intelligence (AI) system to assist with brain tumour diagnosis.
 
-Welcome to this mini Ethicathon.
+The AI has analysed a number of MRI scans and has made predictions about whether a tumour is present.
 
-In this activity, you will act as an AI ethics reviewer investigating whether an Artificial Intelligence (AI) system should be trusted when diagnosing brain tumors from MRI scans.
+Alongside each prediction, the AI also provides a **saliency map** showing the parts of the image that influenced its decision.
 
-The AI model has been trained to classify MRI images as either:
+Your task is not to decide whether the AI is correct.
 
-- Tumor
-- Non-Tumor
+Your task is to decide:
 
-Alongside each prediction, you will also see a **saliency map**.
+> Should the AI be trusted?
 
 ---
 
 ## What is a Saliency Map?
 
-A saliency map highlights the areas of an image that the AI considered most important when making a prediction.
+A saliency map is a visual explanation of where the AI focused its attention when making a prediction.
 
-Think of it as answering:
+The highlighted areas show which parts of the MRI image were most influential in the AI's decision.
 
-> "What parts of the image influenced the AI's decision?"
+Think of a saliency map as the AI answering:
 
-Brighter or highlighted regions indicate where the model focused its attention.
-
----
-
-## Your Task
-
-You will review four categories of predictions:
-
-1. Tumors correctly identified
-2. Tumors incorrectly identified
-3. Non-tumors correctly identified
-4. Non-tumors incorrectly identified
-
-For each example:
-
-- Examine the MRI image
-- Examine the saliency map
-- Consider whether the AI is looking at sensible regions
-- Decide whether you would trust the decision
+> "These are the areas I considered important."
 
 ---
 
-## Discussion Questions
+## Your Challenge
 
-For each case consider:
+You will investigate two sets of AI predictions:
 
-### 1. Is the prediction correct?
+### PredictionTumor
 
-- Yes
-- No
+The AI predicted that a tumour is present.
 
-### 2. Does the saliency map focus on relevant areas?
+### PredictionNotTumor
 
-- Yes
-- Mostly
-- No
+The AI predicted that a tumour is not present.
 
-### 3. Would you trust this prediction if you were a clinician?
+For each case:
 
-Why?
+1. Examine the MRI scan.
+2. Examine the saliency map.
+3. Decide whether the AI appears to be reasoning sensibly.
+4. Decide whether you would trust the prediction.
 
-### 4. Can a correct prediction still be untrustworthy?
+Do not worry about being medically correct.
 
-Why or why not?
-
-### 5. Can an incorrect prediction sometimes appear trustworthy?
-
-Why or why not?
+Focus on whether the AI appears trustworthy.
 
 ---
 
-## Final Challenge
+## Questions
 
-After reviewing all categories discuss:
+For every case discuss:
 
-> Should explainability be required before AI systems are used in healthcare?
+### 1. Would you trust this prediction?
 
-Consider:
+Rate from:
 
-- Patient safety
-- Transparency
-- Accountability
-- Trust
-- Human oversight
+- 1 = Do Not Trust
+- 2 = Mostly Do Not Trust
+- 3 = Unsure
+- 4 = Mostly Trust
+- 5 = Completely Trust
+
+### 2. Why?
+
+What evidence supports your decision?
+
+### 3. What concerns do you have?
+
+Does the AI appear to focus on sensible areas of the scan?
+
+### 4. What additional information would help?
+
+What would you want to know before using this system in a hospital?
 
 ---
 
-## Learning Outcomes
+## Final Discussion
 
-By the end of this activity you should be able to:
+After reviewing all cases, discuss the following:
 
-- Explain what a saliency map is
-- Understand that AI predictions can be correct for the wrong reasons
-- Evaluate trustworthiness independently of accuracy
-- Discuss ethical considerations surrounding Explainable AI (XAI)
+### Question 1
 
-Good luck, and remember:
+Can an AI be correct for the wrong reasons?
 
-> Don't just ask whether the AI is right.
->
-> Ask whether the AI is right for the right reasons.
+### Question 2
+
+Would you trust an AI that is highly accurate but cannot explain its decisions?
+
+### Question 3
+
+Should explainability be required before AI
