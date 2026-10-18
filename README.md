@@ -1,4 +1,4 @@
-# Ethicathon: Can We Trust Medical AI?
+# Ethicon: Can We Trust Medical AI?
 
 ## Welcome
 
