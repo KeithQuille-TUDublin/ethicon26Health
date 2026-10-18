@@ -1,12 +1,10 @@
-# Prediction: Tumour Detected
+# Prediction: No Tumour Detected
 
-In this section, the AI predicts that a tumour is present.
+In this section, the AI predicts that no tumour is present.
 
 Your role is to evaluate whether the prediction appears trustworthy.
 
-You are not being asked to determine whether the prediction is correct.
-
-Instead, consider whether the saliency map suggests that the AI is focusing on meaningful parts of the image.
+Focus on how the AI reached its decision rather than whether the decision is ultimately correct.
 
 ---
 
@@ -14,8 +12,8 @@ Instead, consider whether the saliency map suggests that the AI is focusing on m
 
 ### Observation
 
-- What areas of the MRI appear important?
-- What areas are highlighted by the saliency map?
+- Where is the AI focusing?
+- What areas are highlighted in the saliency map?
 
 ### Trust Assessment
 
@@ -29,17 +27,17 @@ Rate your trust from:
 
 ### Discussion
 
-- Is the AI looking at the area you would expect?
-- Does the highlighted region appear sensible?
-- Would you be comfortable relying on this prediction?
-- What concerns do you have?
+- Does the saliency map appear reasonable?
+- Is the AI focusing on meaningful regions?
+- Would you feel confident accepting this result?
+- What evidence would increase your confidence?
 
 ---
 
 ## Remember
 
-A convincing prediction is not necessarily a trustworthy prediction.
+An AI can look convincing while still making decisions for the wrong reasons.
 
-Ask yourself:
+Consider:
 
-> Is the AI focusing on evidence that appears relevant to its decision?
+> What would need to happen before you would trust this system in a real hospital?
