@@ -79,20 +79,3 @@ Does the AI appear to focus on sensible areas of the scan?
 
 What would you want to know before using this system in a hospital?
 
----
-
-## Final Discussion
-
-After reviewing all cases, discuss the following:
-
-### Question 1
-
-Can an AI be correct for the wrong reasons?
-
-### Question 2
-
-Would you trust an AI that is highly accurate but cannot explain its decisions?
-
-### Question 3
-
-Should explainability be required before AI
