@@ -36,6 +36,12 @@ Below is an example of a saliency map (often called an AI heatmap):
 <img src="https://debuggercafe.com/wp-content/uploads/2021/05/cam_exmp_2.jpg" width="800px">
 
 ---
+## What was Built:
+
+We built a Convolutional Neural Network to ...
+
+
+---
 
 ## Your Challenge
 
