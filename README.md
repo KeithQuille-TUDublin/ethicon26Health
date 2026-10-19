@@ -41,14 +41,14 @@ A **saliency map** highlights the parts of an image that were most important to 
 
 #### Colour Interpretation
 
--  **Red / Yellow / White** = High importance
+- **Red / Yellow / White** = High importance
   - The model paid a lot of attention to these areas.
   - Changes in these pixels would strongly affect the prediction.
 
--  **Green / Light Blue** = Medium importance
+- **Green / Light Blue** = Medium importance
   - These regions contributed somewhat to the model's decision.
 
--  **Dark Blue / Black** = Low importance
+- **Dark Blue / Black** = Low importance
   - These areas had little or no influence on the prediction.
 
 
