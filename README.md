@@ -68,12 +68,12 @@ It does **not** tell us:
 ---
 ## What was Built:
 
-We built a Convolutional Neural Network to identify brain tumours, via MRI scans. The model reported an accuracy of 85% during training, on never before seen scans, seems amazing, the below is the training plots for the model: 
+We built a Convolutional Neural Network to identify Brain Tumours, via MRI scans. The model reported an accuracy of 85% during training, on never before seen scans, seems amazing, the below is the training plots for the model: 
 
 
 <img src="https://raw.githubusercontent.com/KeithQuille-TUDublin/ethicon26Health/refs/heads/main/Training%20performance.png">
 
-
+Howevere, for this test/ethicon, we used actual hospital MRIs (6o in total), so this is a real world test (this is fictional for this event).
 ---
 
 ## Your Challenge
@@ -103,7 +103,7 @@ Located in folder: [PredictionNotTumor folder](https://github.com/KeithQuille-TU
 4. Decide whether you would trust the prediction (simple yes no)
 
 ### For the overall model:
-1. For the overall model, have max 200 words on what you think of it, both on accuracy and the saliency maps!
+1. For the overall model, have a small statement (max 200 words) on what you think of it, both from a view point on accuracy and the saliency maps!
 
 ### Hints:
 Do not worry about being medically correct.
