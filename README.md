@@ -41,6 +41,9 @@ Below is an example of a saliency map (often called an AI heatmap):
 We built a Convolutional Neural Network to ...
 
 
+<img src="https://raw.githubusercontent.com/KeithQuille-TUDublin/ethicon26Health/refs/heads/main/Training%20performance.png">
+
+
 ---
 
 ## Your Challenge
