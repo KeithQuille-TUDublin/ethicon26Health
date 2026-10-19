@@ -75,7 +75,7 @@ It does **not** tell us:
 ---
 ## What was Built:
 
-We built a Convolutional Neural Network to ...
+We built a Convolutional Neural Network to identify brain tumours, via MRI scans. The model reported an accuracy of 85% during training, on never before seen scans, seems amazing, the below is the training plots for the model: 
 
 
 <img src="https://raw.githubusercontent.com/KeithQuille-TUDublin/ethicon26Health/refs/heads/main/Training%20performance.png">
@@ -91,9 +91,13 @@ You will investigate two sets of AI predictions:
 
 The AI predicted that a tumour is present.
 
+Located in folder: PredictionTumor
+
 ### PredictionNotTumor
 
 The AI predicted that a tumour is not present.
+
+Located in folder: PredictionNotTumor
 
 For each case:
 
@@ -106,29 +110,8 @@ Do not worry about being medically correct.
 
 Focus on whether the AI appears trustworthy.
 
----
-
-## Questions
-
-For every case discuss:
-
-### 1. Would you trust this prediction?
-
-Rate from:
-
-- 1 = Do Not Trust
-- 2 = Mostly Do Not Trust
-- 3 = Unsure
-- 4 = Mostly Trust
-- 5 = Completely Trust
-
-### 2. Why?
-
-What evidence supports your decision?
-
-### 3. What concerns do you have?
-
-Does the AI appear to focus on sensible areas of the scan?
+#### Challenge:
+There are 60 images, arranged in folders based on the AI prediction **NOT** the actual diagnosis, so you are unsure if the prediction was correct or not! Each image has a random ID 1-60 to help you when you are sorting your answers! Best of luck!
 
 ### 4. What additional information would help?
 
