@@ -73,12 +73,11 @@ We built a Convolutional Neural Network to identify Brain Tumours, via MRI scans
 
 <img src="https://raw.githubusercontent.com/KeithQuille-TUDublin/ethicon26Health/refs/heads/main/Training%20performance.png">
 
-Howevere, for this test/ethicon, we used actual hospital MRIs (6o in total), so this is a real world test (this is fictional for this event).
 ---
 
 ## Your Challenge
 
-You will investigate two sets of AI predictions:
+You will investigate two sets of AI predictions based on your hospital MRI scans (to see if the AI is trustworthy for use):
 
 ### PredictionTumor
 
