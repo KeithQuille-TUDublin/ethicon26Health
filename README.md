@@ -97,7 +97,7 @@ Located in folder: [PredictionTumor folder](https://github.com/KeithQuille-TUDub
 
 The AI predicted that a tumour is not present.
 
-Located in folder: PredictionNotTumor: 
+Located in folder: [PredictionNotTumor folder](https://github.com/KeithQuille-TUDublin/ethicon26Health/tree/d052ff31c95a7e952c54847d869d08ab5326416c/PredictionNotTumor) 
 
 For each case:
 
