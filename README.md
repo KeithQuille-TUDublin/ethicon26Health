@@ -99,21 +99,25 @@ The AI predicted that a tumour is not present.
 
 Located in folder: [PredictionNotTumor folder](https://github.com/KeithQuille-TUDublin/ethicon26Health/tree/d052ff31c95a7e952c54847d869d08ab5326416c/PredictionNotTumor) 
 
-For each case:
+
+
+## Challenge:
+### For each Saliency map and prediction:
 
 1. Examine the MRI scan.
 2. Examine the saliency map.
 3. Decide whether the AI appears to be reasoning sensibly.
-4. Decide whether you would trust the prediction.
+4. Decide whether you would trust the prediction (simple yes no)
 
+### For the overall model:
+1. For the overall model, have max 200 words on what you think of it, both on accuracy and the saliency maps!
+
+### Hints:
 Do not worry about being medically correct.
 
 Focus on whether the AI appears trustworthy.
 
-#### Challenge:
 There are 60 images, arranged in folders based on the AI prediction **NOT** the actual diagnosis, so you are unsure if the prediction was correct or not! Each image has a random ID 1-60 to help you when you are sorting your answers! Best of luck!
 
-### 4. What additional information would help?
 
-What would you want to know before using this system in a hospital?
 
