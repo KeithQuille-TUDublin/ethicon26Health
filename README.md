@@ -5,13 +5,13 @@
 
 ## Welcome
 
-In this Ethicathon, you will act as an AI ethics review panel for a hospital considering the use of an Artificial Intelligence (AI) system to assist with brain tumour diagnosis.
+In this Ethicon, you will act as an AI ethics review panel for a hospital considering the use of an Artificial Intelligence (AI) system to assist with brain tumour diagnosis.
 
 The AI has analysed a number of MRI scans and has made predictions about whether a tumour is present.
 
 Alongside each prediction, the AI also provides a **saliency map** showing the parts of the image that influenced its decision.
 
-Your task is not to decide whether the AI is correct.
+Your task is not to decide whether the AI is correct and trustworthy.
 
 Your task is to decide:
 
@@ -34,6 +34,43 @@ Below is an example of a saliency map (often called an AI heatmap):
 <br>
 
 <img src="https://debuggercafe.com/wp-content/uploads/2021/05/cam_exmp_2.jpg" width="800px">
+
+### What Do the Colours in a Saliency Map Mean?
+
+A **saliency map** highlights the parts of an image that were most important to an AI model when making a prediction.
+
+#### Colour Interpretation
+
+- 🔴 **Red / Yellow / White** = High importance
+  - The model paid a lot of attention to these areas.
+  - Changes in these pixels would strongly affect the prediction.
+
+- 🟢 **Green / Light Blue** = Medium importance
+  - These regions contributed somewhat to the model's decision.
+
+- 🔵 **Dark Blue / Black** = Low importance
+  - These areas had little or no influence on the prediction.
+
+#### Example: Brain Tumour Detection
+
+If an AI predicts **"Tumour"**:
+
+✅ A good saliency map will highlight the tumour region.
+
+❌ A concerning saliency map might highlight areas outside the brain, suggesting the model is focusing on irrelevant information.
+
+#### Important Limitation
+
+A saliency map shows **where the model is looking**, but not **why**.
+
+It tells us:
+
+> "These pixels were important."
+
+It does **not** tell us:
+
+> "These pixels support the tumour prediction."
+
 
 ---
 ## What was Built:
