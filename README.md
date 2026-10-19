@@ -97,7 +97,7 @@ Located in folder: PredictionTumor
 
 The AI predicted that a tumour is not present.
 
-Located in folder: PredictionNotTumor
+Located in folder: PredictionNotTumor: 
 
 For each case:
 
