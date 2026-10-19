@@ -91,7 +91,7 @@ You will investigate two sets of AI predictions:
 
 The AI predicted that a tumour is present.
 
-Located in folder: PredictionTumor
+Located in folder: [PredictionTumor folder](https://github.com/KeithQuille-TUDublin/ethicon26Health/tree/d052ff31c95a7e952c54847d869d08ab5326416c/PredictionTumor)
 
 ### PredictionNotTumor
 
