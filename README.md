@@ -115,6 +115,10 @@ There are 60 images, arranged in folders based on the AI prediction **NOT** the 
 
 <a href="https://forms.cloud.microsoft/e/BpPgzNq3hP">Submit your answers here!</a>
 
+or
+
+<img src="https://github.com/KeithQuille-TUDublin/ethicon26Health/blob/10a72f560941f90f4c583a4276426664117f1908/QRCode%20for%20Ethicon_%20Can%20We%20Trust%20Medical%20AI_.png">
+
 
 
 
