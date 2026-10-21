@@ -95,6 +95,8 @@ Located in folder: [PredictionNotTumor folder](https://github.com/KeithQuille-TU
 
 ## Challenge - You have 30 minutes!
 
+<b>You must go quickly as it is 2 images per minute!!!</b>
+
 ### For each Saliency map and prediction:
 
 1. Examine the MRI scan.
