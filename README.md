@@ -100,10 +100,9 @@ Located in folder: [PredictionNotTumor folder](https://github.com/KeithQuille-TU
 1. Examine the MRI scan.
 2. Examine the saliency map.
 3. Decide whether the AI appears to be reasoning sensibly.
-4. Decide whether you would trust the prediction (simple yes no)
 
 ### For the overall model:
-1. For the overall model, have a small statement (max 200 words) on what you think of it, both from a view point on accuracy and the saliency maps!
+1. For the overall model, have a small statement (max 200 words) on what you think of it, both from a view point on accuracy and the saliency maps, that is do you trust it!!
 
 ### Hints:
 Do not worry about being medically correct.
@@ -111,6 +110,12 @@ Do not worry about being medically correct.
 Focus on whether the AI appears trustworthy.
 
 There are 60 images, arranged in folders based on the AI prediction **NOT** the actual diagnosis, so you are unsure if the prediction was correct or not! Each image has a random ID 1-60 to help you when you are sorting your answers! Best of luck!
+
+### Submit your answers:
+
+<a href="https://forms.cloud.microsoft/e/BpPgzNq3hP">Submit your answers here!</a>
+
+
 
 
 
